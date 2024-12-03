@@ -62,12 +62,3 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (count);
 }
-#include <limits.h>
-int main()
-{
-	
-	int r = ft_printf("aaaaedfkdjfkejaf %xewvkl%%rsjfgk %c \n", 54752521, 'a');
-	int r1 = printf("aaaaedfkdjfkejaf %xewvkl%%rsjfgk %c \n", 54752521, 'a');
-	printf("%d ****** %d \n", r, r1);
-}
-
